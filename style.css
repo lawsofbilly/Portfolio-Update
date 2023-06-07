@@ -2,6 +2,10 @@
   padding: 0;
   margin: 0;
   font-family: "Open Sans", sans-serif;
+  
+}
+*::-webkit-scrollbar {
+  display: none;
 }
 .container {
   background-color: #0f1021; /* #111 */
@@ -186,7 +190,7 @@
 .ipadApp {
   width: 100%;
 }
-.laptopScreen::-webkit-scrollbar {
+.ipadScreen::-webkit-scrollbar {
   display: none;
 }
 
